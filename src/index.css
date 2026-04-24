@@ -1,0 +1,56 @@
+:root {
+  color: #24170f;
+  background: #f6f0e6;
+  font-family:
+    'Avenir Next', 'Trebuchet MS', 'Segoe UI', 'Gill Sans', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(255, 210, 143, 0.18), transparent 30%),
+    linear-gradient(180deg, #fbf5eb 0%, #f4ede1 100%);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(183, 107, 31, 0.25);
+}
